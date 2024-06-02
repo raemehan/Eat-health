@@ -61,7 +61,6 @@ box-shadow: 10px 10px 5px black;
 
 .middle{
     color: rgb(87, 102, 117);
-
     text-align: center;
     
 }
@@ -78,7 +77,22 @@ box-shadow: 10px 10px 5px black;
 
 .recipes div{
     width: 30%;
-    border: 1px black solid;
+    box-shadow: 10px 10px 10px 10px rgb(85, 85, 85);
     margin: 2%;
     justify-content: center;
+    border-radius: 25px;
 }
+
+.recipes img{
+    padding: 20px;
+    border-radius: 25px;
+
+    }
+
+    .recipes p{
+        padding: 20px;
+    }
+
+    .recipes h1{
+        padding: 0px 20px;
+    }
